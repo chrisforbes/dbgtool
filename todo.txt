@@ -1,0 +1,36 @@
+Ijw.Cricket Stuff To Do (for v1.0)
+==================================
+
+		* = not done	# = done	? = sortof
+
+# Make Detach actually work (process currently dies!)
+* Allow Pause/Stop/Detach in Running state as well as Paused - requires DebugBreakProcess for Pause!
+# Fix crash on shutdown with Running target
+* Do art for buttons
+* Breakpoints
+* Modules and Threads - do we just use the System.Diagnostics.Process stuff for this?
+* Handle DebugEventCode.ExitProcess properly (currently we get stuck!)
+* Stack Walking - Stack-as-data visualization?
+* Show Disassembly
+* Single-Stepping via Context manipulation
+* Show Context (Control, Integer, FPU, MMX, SSE regs)
+* Basic-Block Decomposition for Disassembly
+* Read & Alter Target Memory
+* Memory map view (module layout, page permissions, heaps)
+* Load symbols for shared libraries (dbghelp.dll ?)
+* Resolve addresses etc in disassembly to symbols wherever possible
+* Defining Synthetic Symbols
+* Auto-collapsing of 0xcc / 0x90 slack-space runs.
+* Inline basic-block graph
+* Assemble instructions into target memory
+* Color-coding instruction types
+* Annotation of conditional branches with C-ified condition
+* Auto breakpoint modes: blocks, functions, etc
+* Show multiple threads in code view
+* Thread-Local Storage Management (fs:0)
+* Selectively break on exceptions or pass to the target
+* Stealth mode (hook IsDebuggerPresent, etc)
+* Tools for COM proxying
+* Tools for struct memory visualization
+* Track changes to original binaries and export patches
+* Data Breakpoints

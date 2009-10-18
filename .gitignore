@@ -1,0 +1,13 @@
+*.ncb
+*.suo
+Debug
+Release
+*/bin
+*/obj
+*/.svn
+*.user
+*.dll
+*.exp
+*.ilk
+*.pdb
+*.lib
