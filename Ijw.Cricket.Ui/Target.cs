@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Ijw.Cricket.NativeDebugApi;
+using System.Runtime.InteropServices;
 
 namespace Ijw.Cricket.Ui
 {
@@ -86,6 +87,13 @@ namespace Ijw.Cricket.Ui
             State = TargetState.Paused;
 
             /* todo: do something with some of these events! */
+
+			if (e.EventCode == DebugEventCode.LoadDll)
+			{
+				var sb = new StringBuilder(1024);
+				Psapi.GetMappedFileName(pi.hProcess, e.LoadDll.lpBaseOfDll, sb, sb.Capacity);
+				Program.OutputMessage("LoadDll: {0} @ 0x{1:X8}", sb.ToString(), (uint)(ulong)e.LoadDll.lpBaseOfDll.ToInt64());
+			}
         }
 
         public ContinueStatus GetDefaultContinue()

@@ -177,6 +177,14 @@
 			<File
 				RelativePath=".\disasm.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\disasm.h"
@@ -185,10 +193,26 @@
 			<File
 				RelativePath=".\insnsb.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\insnsd.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\insnsi.h"
@@ -197,6 +221,14 @@
 			<File
 				RelativePath=".\insnsn.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\inttypes.h"
@@ -209,6 +241,14 @@
 			<File
 				RelativePath=".\nasmlib.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\nasmlib.h"
@@ -217,6 +257,14 @@
 			<File
 				RelativePath=".\ndisasm.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\preproc.h"
@@ -225,6 +273,14 @@
 			<File
 				RelativePath=".\regdis.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\regdis.h"
@@ -233,6 +289,14 @@
 			<File
 				RelativePath=".\regs.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\regs.h"
@@ -241,10 +305,26 @@
 			<File
 				RelativePath=".\snprintf.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\sync.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\sync.h"
@@ -257,6 +337,14 @@
 			<File
 				RelativePath=".\ver.c"
 				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						WarningLevel="0"
+					/>
+				</FileConfiguration>
 			</File>
 		</Filter>
 		<File

@@ -50,6 +50,7 @@
     <Compile Include="DebugEvent.cs" />
     <Compile Include="Kernel32.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Psapi.cs" />
     <Compile Include="RandomEnums.cs" />
     <Compile Include="StartupInfo.cs" />
   </ItemGroup>
